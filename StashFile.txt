@@ -1,0 +1,12 @@
+Learn Stash
+// When the user made any updates, that don't need to be committed but, also don't need to be got deleted.
+// Use the stash, which is like intermediate, it stored but not commited.
+>> git add . 
+>> git stash
+// The changes/updates in intermediate/unstaged area needs to be staged, so that we can commit
+ >> git stash pop
+
+// if the file that need to be deleted from stash,
+>> git stash clean
+Note: This will permanently delete the file and couldn't recover
+s
