@@ -1,0 +1,17 @@
+C:\Users\bhuvanj\eclipse-workspace\Github
+https://github.com/Vaayuputra99/LearnTesting
+https://github.com/Vaayuputra99/LearnTesting.git
+
+git init
+git remote add origin https://github.com/Vaayuputra99/LearnTesting.git
+git clone https://github.com/Vaayuputra99/LearnTesting.git
+git remote -v
+git push origin Master
+
+//creating new branch and changing to the respective branch
+git branch <branchName>
+git branch newFeature
+
+git checkout <branchName>
+git checkout newFeature
+git commit -m "Commited NewFeatures" --> Now whatever the changes updated will be update to newFeature branch
