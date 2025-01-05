@@ -7,6 +7,6 @@ Learn Stash
  >> git stash pop
 
 // if the file that need to be deleted from stash,
->> git stash clean
+>> git stash clear
 Note: This will permanently delete the file and couldn't recover
 s
